@@ -21,18 +21,20 @@ The remaining files (`test.csv`, `sample_submission.csv`) were part of the Kaggl
 
 ---
 
-## File Details
+## Column Descriptions
 
-### holidays_events.csv
+Below is a breakdown of the columns in every file, including their data types and descriptions.
+
+### `holidays_events.csv`
 
 | Column | Type | Description |
 | --- | --- | --- |
-| **date** | date | Calendar date |
-| **type** | string | Holiday/event type |
-| **locale** | string | National, Regional, Local |
-| **locale_name** | string | Region/city name |
-| **description** | string | Holiday/event name |
-| **transferred** | bool | Whether the holiday was moved |
+| **date** | `date` | Calendar date |
+| **type** | `string` | Holiday/event type |
+| **locale** | `string` | National, Regional, Local |
+| **locale_name** | `string` | Region/city name |
+| **description** | `string` | Holiday/event name |
+| **transferred** | `bool` | Whether the holiday was moved |
 
 **Notes:**  
 - `transferred` holidays officially fall on that calendar day, but was moved to another date by the government.  
@@ -43,7 +45,7 @@ The remaining files (`test.csv`, `sample_submission.csv`) were part of the Kaggl
 
 ---
 
-### items.csv
+### `items.csv`
 
 | Column | Type | Description |
 | --- | --- | --- |
@@ -57,14 +59,14 @@ The remaining files (`test.csv`, `sample_submission.csv`) were part of the Kaggl
 
 ---
 
-### oil.csv
+### `oil.csv`
 
 | Column | Type | Description |
 | --- | --- | --- |
 | **date** | `date` | Calendar date |
 | **dcoilwtico** | `float` | Daily oil price |
 
-### stores.csv
+### `stores.csv`
 
 | Column | Type | Description |
 | --- | --- | --- |
@@ -76,7 +78,7 @@ The remaining files (`test.csv`, `sample_submission.csv`) were part of the Kaggl
 
 ---
 
-### train.csv
+### `train.csv`
 
 | Column | Type | Description |
 | --- | --- | --- |
@@ -94,20 +96,20 @@ The remaining files (`test.csv`, `sample_submission.csv`) were part of the Kaggl
 
 ---
 
-### transactions.csv
+### `transactions.csv`
 
 | Column | Type | Description |
 | --- | --- | --- |
-| **date** | date | Calendar date |
-| **store_nbr** | int | Store ID |
-| **transactions** | int | Number of transactions that day |
+| **date** | `date` | Calendar date |
+| **store_nbr** | `int` | Store ID |
+| **transactions** | `int` | Number of transactions that day |
 
 ---
 
 ## General Notes About the Dataset
 
-- `unit_sales` is the target variable
+- `unit_sales` is the target variable.
 - There is no information as to whether or not an item was in stock for a particular store on a specific date to explain zero `unit_sales`.
 - Ecuador is an oil-dependent country and its economical health is highly vulnerable to shocks in oil prices.
-- Wages in the public sector are paid every two weeks on the 15th and on the last day of the month. Supermarket sales could be affected by this.
+- Wages in the public sector are paid every two weeks on the 15<sup>th</sup> and on the last day of the month. Supermarket sales could be affected by this.
 - A magnitude 7.8 earthquake struck Ecuador on 16 April 2016. People rallied in relief efforts, donating water and other first need products, which greatly affected supermarket sales for several weeks after the earthquake.
