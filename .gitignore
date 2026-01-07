@@ -240,5 +240,5 @@ pyrightconfig.json
 
 ### Manual additions ###
 
-# Ignore Tableau Workbook Resource files
-*.twbr
+# Large raw data files
+data/raw/*
