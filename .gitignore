@@ -241,4 +241,7 @@ pyrightconfig.json
 ### Manual additions ###
 
 # Large raw data files
-data/raw/*
+*.csv
+*.csv.gz
+*.pkl
+*.parquet
