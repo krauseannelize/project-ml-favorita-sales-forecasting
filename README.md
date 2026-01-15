@@ -65,7 +65,7 @@ The project followed a structured machine learning pipeline:
 
 ## Model Comparison
 
-| Model | Mean Absolute Error (MAE) | Bias | R-Square Score | Training Time | Verdict |
+| Model | MAE | Bias | R-Square | Training Time | Verdict |
 | --- | --- | --- | --- | --- | --- |
 | **XGBoost** | 0.16 | 0.01 | -0.17 | 00:01 | `Best Performer` |
 | **SARIMA** | 312.04 | 265.47 | -0.74 | 00:00 | Moderate |
