@@ -9,7 +9,7 @@ Time‑series forecasting of Corporación Favorita retail sales using multiple m
 ![Data%20Engineering](https://img.shields.io/badge/Data%20Engineering-uv-%23DE5FE9)
 ![Python](https://img.shields.io/badge/Python-XGBoost-%233776AB)
 ![Python](https://img.shields.io/badge/Python-Prophet-%233776AB)
-![Python](https://img.shields.io/badge/Python-Statsmodels-%233776AB)
+![Python](https://img.shields.io/badge/Python-Statsmodels--SARIMA-%233776AB)
 ![Python](https://img.shields.io/badge/Python-sklearn-%233776AB)
 ![Python](https://img.shields.io/badge/Python-matplotlib-%233776AB)
 
